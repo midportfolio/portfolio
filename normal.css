@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(145, 195, 222);
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.na{
+
+    height: 230px;
+    width: 280px;
+    margin-top: 10px;
+    border: 2px solid skyblue;
+    box-shadow: 0 0 10PX rgb(27, 73, 93);
+    display: block; 
+  margin: 20px auto; 
+  animation: slideIn 2s forwards; 
+  transform: translateX(-100%);
+}
+@keyframes slideIn {
+    100% {
+      transform: translateX(0); 
+    }
+  }

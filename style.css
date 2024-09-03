@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(145, 195, 222);
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.img{
+    height: 240px;
+    width: 180px;
+    display: block; 
+  margin: 20px auto; 
+  animation: slideIn 2s forwards; 
+  transform: translateX(-100%); 
+}
+@keyframes slideIn {
+    100% {
+      transform: translateX(0); 
+    }
+  }
+
+  .digi{
+    color: white;
+    background-color: rgb(5, 51, 50);
+    border: none;
+  }
+ 
